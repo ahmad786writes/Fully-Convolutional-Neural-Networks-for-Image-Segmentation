@@ -8,7 +8,7 @@ This project demonstrates the use of Fully Convolutional Neural Networks (FCNs) 
 - **Decoder**: The FCN-8 architecture upsamples the encoded features to the original image size, predicting a segmentation mask for each pixel.
 - **Output**: The model outputs a segmentation mask, classifying each pixel into one of 12 predefined categories.
 
-![Architecture](imgs/fcn-8 architecture.png)
+![Architecture](imgs/fcn_8_architecture.png)
 
 ### Dataset
 
