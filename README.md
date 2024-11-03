@@ -12,7 +12,7 @@ This project demonstrates the use of Fully Convolutional Neural Networks (FCNs) 
 
 ### Dataset
 
-The dataset includes video frames of urban scenes, with each frame labeled for semantic segmentation into 12 classes, including road, buildings, cars, etc.
+The dataset includes video frames of urban scenes, with each frame labeled for semantic segmentation into 12 classes, including road, buildings, cars, pedestrians, and more.
 
 ## Usage
 
@@ -28,3 +28,28 @@ The dataset includes video frames of urban scenes, with each frame labeled for s
    - Ensure GPU runtime is enabled under `Runtime > Change runtime type > GPU`.
    - Follow the notebook instructions to load the dataset, preprocess images, train the model, and visualize predictions.
 
+## Results
+
+The model is evaluated using metrics such as Intersection over Union (IoU) and Dice Score for each class. Visualization of the results includes ground truth and predicted segmentation masks side by side for qualitative analysis.
+
+### Example Output
+
+![Example Output](imgs/results.png)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests if you find bugs or have improvements in mind.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Divam Gupta](https://github.com/divamgupta/image-segmentation-keras) for providing the dataset.
+- The [CamVid dataset](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) for the inspiration and foundational work in image segmentation.
+- The Keras team for their contributions to making deep learning accessible.
+
+## Contact
+
+For questions or feedback, please contact [Your Name](mailto:your.email@example.com).
